@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_marginTop="20sp"
+    android:layout_marginBottom="40sp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_width="60sp"
+        android:layout_height="60sp">
+        <com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar
+            android:id="@+id/progressBar"
+            app:mlpb_arrow_height="5dp"
+            app:mlpb_arrow_width="8dp"
+            app:mlpb_show_arrow="true"
+            app:mlpb_progress_color="?attr/colorPrimary"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:text="数据加载中"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
