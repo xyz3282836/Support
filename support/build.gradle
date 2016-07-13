@@ -48,7 +48,7 @@ publish {
     userOrg = 'xyz3282836'
     groupId = 'com.rz'
     artifactId = 'support'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     desc = 'md enhanced version'
     website = 'https://github.com/xyz3282836/support'
 }
